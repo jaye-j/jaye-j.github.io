@@ -3239,3 +3239,51 @@ input, select, textarea {
 	}
 
 	
+
+	.borderaboutmeimg {
+		border: 5px solid black transparent;
+		border-radius: 35px;
+		width: 100%;
+		height: auto;
+		padding-left: 0;
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	}
+
+	.aboutme-container{
+		display: flex;
+	}
+
+	.about-text {
+		width: 100%;
+	}
+
+
+
+
+@media screen and (min-width: 800px) {
+	.borderaboutmeimg {
+		width: 100%;
+		height: auto;
+		padding-left: 0;
+	}
+
+	.img-container {
+		width: 50%;
+	}
+
+	.about-text {
+		width: 50%;
+		font-size: 12.8px;
+		line-height: 25px;
+		margin-bottom: 0;
+	}
+
+	.aboutme-container{
+		align-items: center;
+		text-align: center;
+	}
+
+	.resumepad {
+		margin-top: 15px;
+	}
+}

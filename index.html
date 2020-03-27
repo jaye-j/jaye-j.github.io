@@ -17,9 +17,9 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1 style="font-size: 30px;"><strong>Jaye Jensen</strong><br/>
+					<h1 style="font-size: 30px;"><span class="typed"></span><br/>
 					</h1>
-					<h1 style="border-bottom: solid 1px; padding-bottom: 5px;">Software Developer</h1>
+					<h1 style="border-bottom: solid 1px; padding-bottom: 5px;"><span class="typed2"></span></h1>
 					<li style="list-style-type: none; padding-top: 5px;">Houston, TX</li>
 					<li style="list-style-type: none;">281.415.5751</li>
 					<li style="list-style-type: none;">jayejens@gmail.com</li>
@@ -34,12 +34,17 @@
 						<header class="major">
 							<h2>About me</h2>
 						</header>
-						<p>In July of 2019, I decided to make a career change from being a real estate agent to being a web developer. 
-							I had always been interested in coding and computer programming as a teen; I even took a few small online courses when I was in middle school. 
-							So being in search of a new career I joined Digitalcraft’s January 2020 full-stack immersive coding boot camp.
-							I am passionate about design, learning new technologies, and building a great user-friendly experience.</p>
+						<div class="row aboutme-container">
+							<div class="img-container">
+								<img class="borderaboutmeimg" src="images/coding.png" alt="">
+							</div>	
+							<p class="about-text">In July of 2019, I decided to make a career change from being a real estate agent to being a web developer. 
+								I had always been interested in coding and computer programming as a teen; I even took a few small online courses when I was in middle school. 
+								So being in search of a new career I joined Digitalcraft’s January 2020 full-stack immersive coding boot camp.
+								I am passionate about design, learning new technologies, and building a great user-friendly experience.</p>
+						</div>
 						<ul class="actions">
-							<li><a href="https://jayejensenresume.s3.us-east-2.amazonaws.com/Jacob_Jensen_resume.pdf" target="_blank" class="button primary">Resume</a></li>
+							<li class="resumepad"><a href="https://jayejensenresume.s3.us-east-2.amazonaws.com/Jacob_Jensen_resume.pdf" target="_blank" class="button primary">Resume</a></li>
 						</ul>
 					</section>
 
@@ -61,14 +66,14 @@
 							<p>Book Smart is a front-end API-driven search engine for finding books and viewing both historical and current bestseller data from The New York Times.</p>
 						</article>
 						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" alt="" /></a>
-							<h3>TBD</h3>
-							<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							<a href="https://github.com/jaye-j/band_site" target="_blank" class="image fit"><img src="images/thumbs/band_site.png" alt="" /></a>
+							<h3>Band Forum Site | <a style="border: none; color: #1481c4;" href="https://github.com/jaye-j/band_site" target="_blank">Source Code</a></h3>
+							<p>A band forum for The Strokes built using socket.io and express.</p>
 						</article>
 						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" alt="" /></a>
-							<h3>TBD</h3>
-							<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							<a href="https://github.com/jaye-j/RPG-Game-Project" class="image fit"><img src="images/thumbs/heroRPG.png" alt="" /></a>
+							<h3>Hero RPG Game | <a style="border: none; color: #1481c4;" href="https://github.com/jaye-j/RPG-Game-Project" target="_blank">Source Code</a></h3></h3>
+							<p>An RPG game using Python.</p>
 						</article>
 					</div>
 				</section>
@@ -466,6 +471,34 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+			<script>
+
+				var options = {
+				strings: [
+					"<strong>Jaye Jensen</strong>",
+				],
+				typeSpeed: 100,
+				loop: false,
+				showCursor: false
+				};
+				var typed = new Typed(".typed", options);
+
+				var options2 = {
+				strings: [
+					"Software Developer",
+				],
+				typeSpeed: 100,
+				onDelay: 100,
+				loop: false,
+				showCursor: false
+
+				
+				};
+				var typed2 = new Typed(".typed2", options2);
+
+
+			</script>
 
 	</body>
 </html>
