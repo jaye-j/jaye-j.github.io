@@ -2206,7 +2206,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.5em;
+				font-size: 1.9em;
 			}
 
 /* Labeled Icons */
@@ -2521,22 +2521,25 @@ input, select, textarea {
 			background-color: #1481c4;
 			border-color: #1481c4;
 			color: #ffffff !important;
+			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.119), 0 6px 6px rgba(0, 0, 0, 0.174);
 		}
 
 			input[type="submit"].primary:hover,
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5cc6a7;
-				border-color: #5cc6a7;
+				background-color: #fff;
+				border-color: #1481c4;
+				color: #1481c4 !important;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #3eb08f;
-				border-color: #3eb08f;
+				background-color: #1481c4;
+				border-color: #1481c4;
+				color: #ffffff !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3232,7 +3235,7 @@ input, select, textarea {
 		text-align: center;
 	}
 	.techIcon :hover {
-		transform: scale(1.35);
+		transform: scale(1.1);
 	}
 
 	
