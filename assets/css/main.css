@@ -3399,10 +3399,10 @@ body.is-touch .poptrox-popup .closer {
 .modal-content {
   background-color: #fff;
   margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
+  padding: 12px;
   border: 1px solid #888;
   border-radius: 5px;
-  width: 45%; /* Could be more or less, depending on screen size */
+  width: 600px; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
@@ -3411,6 +3411,7 @@ body.is-touch .poptrox-popup .closer {
   float: right;
   font-size: 28px;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 
 .close:hover,
