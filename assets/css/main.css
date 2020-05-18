@@ -3400,7 +3400,7 @@ body.is-touch .poptrox-popup .closer {
   background-color: #fff;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 12px;
-  border: 1px solid #888;
+  border: 1px solid #000;
   border-radius: 5px;
   width: 600px; /* Could be more or less, depending on screen size */
 }
